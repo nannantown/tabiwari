@@ -1,5 +1,5 @@
 name: tabimori_warikan
-description: "旅ワリ - シンプルで使いやすい旅行・グループの割り勘計算アプリ。CSV読込対応で複雑な精算も自動計算。"
+description: "旅ワリ - シンプルで使いやすい旅行・グループの割り勘計算アプリ。複雑な精算も自動計算。"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
