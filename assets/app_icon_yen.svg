@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="1024" height="1024" fill="#2E8B57" rx="180"/>
+  
+  <!-- Main Yen symbol (¥) -->
+  <!-- Y shape -->
+  <path d="M 300 250 L 512 500 L 724 250" stroke="#FFFFFF" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Vertical line of Y -->
+  <line x1="512" y1="500" x2="512" y2="774" stroke="#FFFFFF" stroke-width="80" stroke-linecap="round"/>
+  
+  <!-- Top horizontal line -->
+  <line x1="350" y1="440" x2="674" y2="440" stroke="#FFFFFF" stroke-width="60" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal line -->
+  <line x1="350" y1="540" x2="674" y2="540" stroke="#FFFFFF" stroke-width="60" stroke-linecap="round"/>
+</svg>

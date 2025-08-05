@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="1024" height="1024" fill="#2E8B57" rx="180"/>
+  
+  <!-- Main division symbol (÷) -->
+  <!-- Top dot -->
+  <circle cx="512" cy="350" r="60" fill="#FFFFFF"/>
+  
+  <!-- Division line -->
+  <rect x="300" y="482" width="424" height="60" fill="#FFFFFF" rx="30"/>
+  
+  <!-- Bottom dot -->
+  <circle cx="512" cy="674" r="60" fill="#FFFFFF"/>
+  
+  <!-- Small yen symbols for context -->
+  <text x="280" y="280" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF" opacity="0.7">¥</text>
+  <text x="744" y="280" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF" opacity="0.7">¥</text>
+  <text x="280" y="780" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF" opacity="0.7">¥</text>
+  <text x="744" y="780" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF" opacity="0.7">¥</text>
+</svg>

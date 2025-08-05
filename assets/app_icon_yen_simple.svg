@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with app's dark blue -->
+  <rect width="1024" height="1024" fill="#15283A" rx="180"/>
+  
+  <!-- Perfectly balanced Yen symbol (¥) in white -->
+  <!-- Y shape - more proportional -->
+  <path d="M 280 200 L 512 450 L 744 200" stroke="#FFFFFF" stroke-width="90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Vertical line of Y - positioned for better balance -->
+  <line x1="512" y1="450" x2="512" y2="824" stroke="#FFFFFF" stroke-width="90" stroke-linecap="round"/>
+  
+  <!-- Top horizontal line - better positioned -->
+  <line x1="320" y1="400" x2="704" y2="400" stroke="#FFFFFF" stroke-width="70" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal line - better spacing -->
+  <line x1="320" y1="500" x2="704" y2="500" stroke="#FFFFFF" stroke-width="70" stroke-linecap="round"/>
+</svg>

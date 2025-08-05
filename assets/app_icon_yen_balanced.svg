@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with app's main color -->
+  <rect width="1024" height="1024" fill="#15283A" rx="180"/>
+  
+  <!-- Circular background for better contrast -->
+  <circle cx="512" cy="512" r="360" fill="#FFFFFF" opacity="0.95"/>
+  
+  <!-- Main Yen symbol (¥) in app's main color -->
+  <!-- Y shape (thicker, more balanced) -->
+  <path d="M 320 280 L 512 480 L 704 280" stroke="#15283A" stroke-width="70" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Vertical line of Y -->
+  <line x1="512" y1="480" x2="512" y2="740" stroke="#15283A" stroke-width="70" stroke-linecap="round"/>
+  
+  <!-- Top horizontal line -->
+  <line x1="380" y1="440" x2="644" y2="440" stroke="#15283A" stroke-width="50" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal line -->
+  <line x1="380" y1="520" x2="644" y2="520" stroke="#15283A" stroke-width="50" stroke-linecap="round"/>
+  
+  <!-- Subtle accent dots for balance -->
+  <circle cx="280" cy="280" r="20" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="744" cy="280" r="20" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="280" cy="744" r="20" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="744" cy="744" r="20" fill="#4CAF50" opacity="0.6"/>
+</svg>
