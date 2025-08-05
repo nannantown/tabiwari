@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#2E8B57" rx="180"/>
+  
+  <!-- Calculator body -->
+  <rect x="200" y="180" width="624" height="664" fill="#F5F5F5" rx="60" stroke="#333" stroke-width="4"/>
+  
+  <!-- Display -->
+  <rect x="250" y="230" width="524" height="120" fill="#1A1A1A" rx="10"/>
+  <text x="750" y="310" font-family="Arial, sans-serif" font-size="48" fill="#00FF88" text-anchor="end">¥1,850</text>
+  
+  <!-- Buttons (simplified) -->
+  <circle cx="320" cy="440" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="320" y="450" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">7</text>
+  
+  <circle cx="420" cy="440" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="420" y="450" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">8</text>
+  
+  <circle cx="520" cy="440" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="520" y="450" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">9</text>
+  
+  <circle cx="620" cy="440" r="40" fill="#FF6B6B" stroke="#999" stroke-width="2"/>
+  <text x="620" y="450" font-family="Arial, sans-serif" font-size="24" fill="#FFF" text-anchor="middle">÷</text>
+  
+  <!-- Second row -->
+  <circle cx="320" cy="540" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="320" y="550" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">4</text>
+  
+  <circle cx="420" cy="540" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="420" y="550" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">5</text>
+  
+  <circle cx="520" cy="540" r="40" fill="#E0E0E0" stroke="#999" stroke-width="2"/>
+  <text x="520" y="550" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle">6</text>
+  
+  <circle cx="620" cy="540" r="40" fill="#4CAF50" stroke="#999" stroke-width="2"/>
+  <text x="620" y="550" font-family="Arial, sans-serif" font-size="24" fill="#FFF" text-anchor="middle">=</text>
+  
+  <!-- Coins decoration -->
+  <circle cx="720" cy="720" r="60" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+  <text x="720" y="735" font-family="Arial, sans-serif" font-size="36" fill="#FF8C00" text-anchor="middle">¥</text>
+  
+  <circle cx="300" cy="750" r="45" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="3"/>
+  <text x="300" y="762" font-family="Arial, sans-serif" font-size="28" fill="#808080" text-anchor="middle">¥</text>
+  
+  <!-- Small suitcase icon -->
+  <rect x="700" y="200" width="80" height="60" fill="#8B4513" rx="8"/>
+  <rect x="710" y="210" width="60" height="40" fill="#A0522D" rx="4"/>
+  <circle cx="720" cy="200" r="6" fill="#654321"/>
+  <line x1="740" y1="180" x2="740" y2="200" stroke="#654321" stroke-width="4" stroke-linecap="round"/>
+</svg>
