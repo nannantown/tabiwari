@@ -2,7 +2,7 @@
 
 **旅ワリ**
 
-最終更新日：2024 年 8 月 4 日
+最終更新日：2025 年 8 月 5 日
 
 ## 第 1 条（適用）
 
@@ -63,13 +63,13 @@
 
 本規約に関するご質問は、以下までお問い合わせください：
 
-Email: support@tabimori-warikan.com
+Email: namihanastation@gmail.com
 
 ---
 
 **開発者情報**
 アプリ名：旅ワリ  
-開発者：[開発者名]  
-連絡先：support@tabimori-warikan.com
+開発者：koki naniwa  
+連絡先：namihanastation@gmail.com
 
-制定日：2024 年 8 月 4 日
+制定日：2025 年 8 月 5 日
