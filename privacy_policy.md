@@ -69,7 +69,7 @@
 
 本プライバシーポリシーに関するご質問は、以下までお問い合わせください：
 
-Email: support@tabimori-warikan.com
+Email: namihanastation@gmail.com
 
 ## 10. 適用される法律
 
@@ -79,5 +79,5 @@ Email: support@tabimori-warikan.com
 
 **開発者情報**
 アプリ名：旅ワリ
-開発者：[開発者名]
-連絡先：support@tabimori-warikan.com
+開発者：koki naniwa
+連絡先：namihanastation@gmail.com
