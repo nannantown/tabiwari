@@ -1,45 +1,113 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+# Flutter/Dart の除外ファイル
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Flutter App のビルドファイル
+/build/
+**/build/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Dart の除外パターン
 .dart_tool/
+.packages
+.package_info.json
+
+# iOS 固有の除外ファイル
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+.symlinks/
+**/ios/.generated/
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+
+# Android 固有の除外ファイル
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+**/android/.gradle/
+
+# Web 除外ファイル（不要な自動生成ファイル）
+/web/flutter_service_worker.js
+
+# macOS 固有の除外ファイル
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Windows 固有の除外ファイル  
+**/windows/flutter/ephemeral/
+
+# Linux 固有の除外ファイル
+**/linux/flutter/ephemeral/
+
+# IDE & エディタ設定ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 固有のファイル
+.DS_Store
+Thumbs.db
+
+# Firebase / 機密設定ファイル
+/ios/firebase_app_id_file.json
+/ios/GoogleService-Info.plist
+/android/app/google-services.json
+.firebase/
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# ログファイル
+*.log
+
+# 依存関係キャッシュ（大容量ファイル除外）
+pubspec.lock
+
+# App Store 関連の一時ファイル（機密情報）
+**/ios/exportOptions.plist
+**/ios/Runner.xcarchive
+
+# 個人情報・機密ファイル
+keystore.properties
+key.properties
+*.p12
+*.mobileprovision
+
+# 大容量ファイル（Git LFS 推奨）
+*.zip
+*.ipa
+*.apk
+*.app
+
+# テスト関連の一時ファイル
+/coverage/
+test_driver/
+integration_test/driver/
+
+# Flutter Web 関連
+/web/icons/Icon-*
+
+# その他の一時ファイル
+*.tmp
+*.temp
+.fvm/
+
+# Flutter プラグイン設定ファイル
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# IntelliJ IDEA / Android Studio 設定ファイル
+*.iml
